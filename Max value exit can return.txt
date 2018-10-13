@@ -1,0 +1,2 @@
+Exit codes from any process whether it's a binary executable, a shell script, or anything else range from 0 to 255. 
+It's possible to pass a larger value to exit(), but only the lower 8 bits of the status are made available to other processes through wait().
