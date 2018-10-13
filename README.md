@@ -149,7 +149,6 @@ int main()
 	}	
 	}
 	}
-	//else
 	{
 		wait(NULL);
 		wait(NULL);
@@ -186,8 +185,6 @@ int main()
 			printf("%s %d\n", "Sum by child10 = ", s10);
 			printf("%s\n", "I am Parent");
 			printf("%s %d\n", "Total sum of all childs = ", s1+s2+s3+s4+s5+s6+s7+s8+s9+s10);
-	}
-
-		
+	}	
 	return 0;
 }
